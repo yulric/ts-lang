@@ -1,11 +1,26 @@
 {
-  "name": "ts-lang",
+  "name": "@yulrics/ts-lang",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Has interfaces for different languages that can be combined to make different Lang interfaces",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yulric/ts-lang.git"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-ts": "tsc",
+    "build-ts:watch": "tsc -w",
+    "build": "tsc",
+    "prepublish": "npm run build"
   },
   "author": "Yulric Sequeira <yulrics@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "2.3.2"
+  }
 }
