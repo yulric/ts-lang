@@ -1,6 +1,6 @@
 {
   "name": "@yulrics/ts-lang",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Has interfaces for different languages that can be combined to make different Lang interfaces",
   "repository": {
     "type": "git",
